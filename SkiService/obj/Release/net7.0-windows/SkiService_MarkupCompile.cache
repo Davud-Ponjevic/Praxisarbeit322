@@ -4,11 +4,11 @@
 winexe
 C#
 .cs
-C:\Users\sebas\Source\Repos\Praxisarbeit322\SkiService\obj\Debug\net7.0-windows\
+C:\Users\sebas\Source\Repos\Praxisarbeit322\SkiService\obj\Release\net7.0-windows\
 SkiService
 none
 false
-TRACE;DEBUG;NET;NET7_0;NETCOREAPP
+TRACE;RELEASE;NET;NET7_0;NETCOREAPP
 C:\Users\sebas\Source\Repos\Praxisarbeit322\SkiService\App.xaml
 11407045341
 
