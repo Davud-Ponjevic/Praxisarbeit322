@@ -1,0 +1,65 @@
+﻿<Window x:Class="SkiService.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Ski Service App" Height="450" Width="800">
+    <Grid>
+        <Grid Name="loginGrid">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="10">
+                <TextBlock Text="Benutzername:" VerticalAlignment="Center" Margin="0,0,5,0"/>
+                <TextBox Name="usernameTextBox" Width="120"/>
+                <TextBlock Text="Passwort:" VerticalAlignment="Center" Margin="10,0,5,0"/>
+                <PasswordBox Name="passwordBox" Width="120"/>
+                <Button Content="Login" Click="LoginButton_Click" Margin="10,0,0,0"/>
+            </StackPanel>
+        </Grid>
+
+        <Grid Name="adminFunctionsGrid" Visibility="Collapsed">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Right" Margin="10">
+                <Image Source="{Binding Path=AdminImageSource}" Width="30" Height="30" Margin="0,0,10,0"/>
+                <TextBlock Text="{Binding Path=CurrentAdminName}" VerticalAlignment="Center"/>
+            </StackPanel>
+
+ 
+            <Grid Grid.Row="1" Margin="10">
+
+                <StackPanel Orientation="Horizontal" Margin="0,0,0,10" VerticalAlignment="Top">
+                    <TextBlock Text="Suche:" VerticalAlignment="Center" Margin="0,0,5,0"/>
+                    <TextBox Name="searchTextBox" Width="100"/>
+                    <Button Content="Suchen" Click="SearchButton_Click" Margin="10,0,0,0"/>
+                </StackPanel>
+                
+                <ScrollViewer VerticalScrollBarVisibility="Auto">
+                    <ListView Name="serviceListView" Height="150" Margin="0,0,0,10">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn Header="Kundenname" DisplayMemberBinding="{Binding KundenName}" Width="150"/>
+                                <GridViewColumn Header="Dienstleistung" DisplayMemberBinding="{Binding Dienstleistung}" Width="150"/>
+                                <GridViewColumn Header="Priorität" DisplayMemberBinding="{Binding Prioritaet}" Width="100"/>
+                                <GridViewColumn Header="Status" DisplayMemberBinding="{Binding Status}" Width="100"/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                </ScrollViewer>
+
+                <StackPanel HorizontalAlignment="Right" VerticalAlignment="Bottom">
+
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,10,1,0">
+                        <Button Content="Änderungen übernehmen" Click="ApplyChangesButton_Click"/>
+                        <Button Content="Änderungen speichern" Click="SaveChangesButton_Click"/>
+                        <Button Content="Auftrag löschen" Click="DeleteButton_Click"/>
+                    </StackPanel>
+                </StackPanel>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>
