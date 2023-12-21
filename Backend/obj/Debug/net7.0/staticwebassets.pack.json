@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\davud\\OneDrive\\Desktop\\Praxisarbeit\\Praxisarbeit\\wwwroot\\angebot.html",
+      "PackagePath": "staticwebassets\\angebot.html"
+    },
+    {
+      "Id": "C:\\Users\\davud\\OneDrive\\Desktop\\Praxisarbeit\\Praxisarbeit\\wwwroot\\bilder\\Hintergrundfürwebseite.jpg",
+      "PackagePath": "staticwebassets\\bilder\\Hintergrundfürwebseite.jpg"
+    },
+    {
+      "Id": "C:\\Users\\davud\\OneDrive\\Desktop\\Praxisarbeit\\Praxisarbeit\\wwwroot\\bilder\\LogoJetstream.png",
+      "PackagePath": "staticwebassets\\bilder\\LogoJetstream.png"
+    },
+    {
+      "Id": "C:\\Users\\davud\\OneDrive\\Desktop\\Praxisarbeit\\Praxisarbeit\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\davud\\OneDrive\\Desktop\\Praxisarbeit\\Praxisarbeit\\wwwroot\\scripts\\main.js",
+      "PackagePath": "staticwebassets\\scripts\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\davud\\OneDrive\\Desktop\\Praxisarbeit\\Praxisarbeit\\wwwroot\\styles\\main.css",
+      "PackagePath": "staticwebassets\\styles\\main.css"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Praxisarbeit.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Praxisarbeit.props",
+      "PackagePath": "build\\Praxisarbeit.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Praxisarbeit.props",
+      "PackagePath": "buildMultiTargeting\\Praxisarbeit.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Praxisarbeit.props",
+      "PackagePath": "buildTransitive\\Praxisarbeit.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
