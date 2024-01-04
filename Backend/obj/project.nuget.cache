@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "71CSek6pt+PMFl6UuHGQvRze233G2rugViehAxRzPt1qCExmXjtjshdkhqQZbJeRc6fr3Vzkin7n16aNf/RR6Q==",
+  "dgSpecHash": "feIxYl/YGgza5amFZSz+6qKARTr6mWtmfhmT4efkNqJ6i3fYXDkBtwA+YImpZ2YUvgw0qW4nH215uxPxLHiuIQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\davud\\OneDrive - ipso! Bildung\\Lehrjahr 2\\Semester 1\\Module\\Modul 295\\Praxisarbeit\\Praxisarbeit\\Praxisarbeit\\Praxisarbeit.csproj",
+  "projectFilePath": "C:\\Github\\Praxisarbeit_322\\Praxisarbeit322\\Praxisarbeit322\\Backend\\Praxisarbeit.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\davud\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\davud\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
